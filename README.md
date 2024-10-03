@@ -68,32 +68,32 @@ cropped_image = image_rgb[50:300, 100:400]  # Crop a portion of the image
 # Plot the original and transformed images
 plt.figure(figsize=(12, 8))
 
-plt.subplot(2, 3, 1)
+plt.subplot()
 plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis('off')
 
-plt.subplot(2, 3, 2)
+plt.subplot()
 plt.imshow(translated_image)
 plt.title("Translated Image")
 plt.axis('off')
 
-plt.subplot(2, 3, 3)
+plt.subplot()
 plt.imshow(scaled_image)
 plt.title("Scaled Image")
 plt.axis('off')
 
-plt.subplot(2, 3, 4)
+plt.subplot()
 plt.imshow(sheared_image)
 plt.title("Sheared Image")
 plt.axis('off')
 
-plt.subplot(2, 3, 5)
+plt.subplot()
 plt.imshow(reflected_image)
 plt.title("Reflected Image")
 plt.axis('off')
 
-plt.subplot(2, 3, 6)
+plt.subplot()
 plt.imshow(rotated_image)
 plt.title("Rotated Image")
 plt.axis('off')
